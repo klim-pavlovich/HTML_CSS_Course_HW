@@ -1,0 +1,91 @@
+body {
+	background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+	font-family: sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+blockquote {
+	color: bisque;
+}
+
+blockquote::first-letter {
+	font-size: 1.86rem;
+	font-weight: 700;
+	font-style: italic;
+	letter-spacing: 0.12rem;
+}
+
+.title {
+	color: 222;
+	font-size: 28px;
+	line-height: 36px;
+	font-weight: bold;
+}
+
+.subtitle {
+	color: coral;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 80px;
+}
+
+.link {
+	color: cornflowerblue;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.text {
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 30px;
+	color: #7d7987;
+}
+
+.picture {
+	border-radius: 20px 50px 10px 80px;
+	width: 300px;
+}
+
+.picture_with_transform {
+	width: 500px;
+	height: normal;
+	transform: perspective(500px) translate(10px, 0, 20px) rotateY(30deg);
+}
+
+.input-text {
+	width: 200px;
+	height: 40px;
+	outline: none;
+	border: 1px solid #ccc;
+	border-radius: 15px;
+	font-size: 14px;
+	line-height: 30px;
+}
+
+.input-text::placeholder {
+	color: cadetblue;
+}
+
+.btn {
+	width: 100px;
+	height: 30px;
+	font-size: 14px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+}
+
+.btn:active {
+	color: white;
+	background-color: cadetblue;
+}
+
+.btn:hover {
+	color: whitesmoke;
+	background-color: green;
+}

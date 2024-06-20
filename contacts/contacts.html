@@ -3,24 +3,31 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../style.css" />
 		<title>Contacts</title>
 	</head>
 	<body>
 		<ul>
-			<li><a href="../index.html">Главная</a></li>
-			<li><a href="../catalog/catalog.html">Каталог</a></li>
-			<li><a href="#">Контакты</a></li>
+			<li><a class="link" href="../index.html">Главная</a></li>
+			<li><a class="link" href="../catalog/catalog.html">Каталог</a></li>
+			<li><a class="link" href="#">Контакты</a></li>
 		</ul>
-		<h1>Контактная информация</h1>
+		<h1 class="title">Контактная информация</h1>
 		<img
+			class="picture"
 			src="https://sun9-15.userapi.com/impg/sDZnL8YKG5itjm3ELcB_PitKELJ0uqAm6nd9fA/to5mucboX3c.jpg?size=1000x750&quality=95&sign=f347a5a0c2b1e990272907f09d9443da&c_uniq_tag=ypsXBdyN9Si3LgQAm9nYOGtjtrPVQ9QmKlZR-GMlPIM&type=album"
 			alt="картинка контактов"
 		/>
-		<h2>Оставь свой контакт, пожалуйста:)</h2>
+		<h2 class="subtitle">Оставь свой контакт, пожалуйста:)</h2>
 		<form>
-			<input type="text" placeholder="Введите своё имя" />
-			<input type="text" placeholder="И номерочек;)" />
+			<input class="input_text" type="text" placeholder="Введите своё имя" />
+			<br />
+			<br />
+			<input class="input_text" type="text" placeholder="И номерочек;)" />
+			<br />
+			<br />
+			<button class="btn">Отправить</button>
 		</form>
-		<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, dolorum!</p>
+		<p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, dolorum!</p>
 	</body>
 </html>
